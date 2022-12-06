@@ -1,10 +1,34 @@
+header{
+    width: 100%;
+}
 #header-start{
     background-color: var(--primary-color);
+    /* height: 100px; */
 }
 #header-end{
     background-color: var(--secondary-color);
     text-align: center;
+    color: var(--white-color);
 }
 #about{
     background-color: var(--secondary-color);
+}
+footer{
+    width: 100%;
+}
+#footer-start{
+    background-color: var(--primary-color-light);
+}
+#footer-end{
+    background-color: var(--primary-color);
+}
+
+#header-start h2{
+    color: var(--white-color);
+}
+#header-start a{
+    text-transform: uppercase;
+}
+#header-end img{
+    
 }

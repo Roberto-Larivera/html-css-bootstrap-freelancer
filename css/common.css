@@ -9,4 +9,10 @@
     --primary-color:#2C3F4F;
     --primary-color-light:#3B546D;
     --secondary-color:#1ABC9B;
+    --white-color: white;
+}
+h1,
+h2,
+p{
+    text-transform: uppercase;
 }
