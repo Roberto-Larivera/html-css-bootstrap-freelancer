@@ -3,4 +3,8 @@
 }
 #header-end{
     background-color: var(--secondary-color);
+    text-align: center;
+}
+#about{
+    background-color: var(--secondary-color);
 }
