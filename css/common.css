@@ -1,0 +1,12 @@
+/* RESET  */
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+:root{
+    --primary-color:#2C3F4F;
+    --primary-color-light:#3B546D;
+    --secondary-color:#1ABC9B;
+}

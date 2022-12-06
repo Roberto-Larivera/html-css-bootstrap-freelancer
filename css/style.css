@@ -1,0 +1,6 @@
+#header-start{
+    background-color: var(--primary-color);
+}
+#header-end{
+    background-color: var(--secondary-color);
+}
