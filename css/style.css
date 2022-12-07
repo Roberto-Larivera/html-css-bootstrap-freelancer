@@ -1,13 +1,8 @@
 header{
-    width: 100%;
-}
-#header-start{
     background-color: var(--primary-color);
-    /* height: 100px; */
 }
-#header-end{
+#jumbotron{
     background-color: var(--secondary-color);
-    text-align: center;
     color: var(--white-color);
 }
 #about{
@@ -21,14 +16,4 @@ footer{
 }
 #footer-end{
     background-color: var(--primary-color);
-}
-
-#header-start h2{
-    color: var(--white-color);
-}
-#header-start a{
-    text-transform: uppercase;
-}
-#header-end img{
-    
 }

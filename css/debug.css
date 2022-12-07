@@ -1,18 +1,3 @@
 /* DEBUG  */
 
 /* .debug */
-
-
-.debug .box{
-    width: 100%;
-    height: 100px;
-}
-.debug .box-b{
-    width: 100%;
-    height: 100px;
-    background-color: lightgreen;
-}
-.debug .box-image{
-    background-color: lightcoral;
-    min-height: 200px;
-}
