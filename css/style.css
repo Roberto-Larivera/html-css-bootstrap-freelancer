@@ -8,9 +8,7 @@ header{
 #about{
     background-color: var(--secondary-color);
 }
-footer{
-    width: 100%;
-}
+
 #footer-start{
     background-color: var(--primary-color-light);
 }
