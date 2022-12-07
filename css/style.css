@@ -105,3 +105,43 @@ header div:first-child a{
 }
 
 
+/* MY STAR  */
+#jumbotron .my-star i{
+    color: var(--white-color);
+}
+#jumbotron .my-star::after{
+    border-color: var(--white-color);
+}
+#jumbotron .my-star::before{
+    border-color: var(--white-color);
+}
+
+#portfolio .my-star i{
+    color: var(--primary-color);
+}
+#portfolio .my-star::after{
+    border-color: var(--primary-color);
+}
+#portfolio .my-star::before{
+    border-color: var(--primary-color);
+}
+
+#about .my-star i{
+    color: var(--white-color);
+}
+#about .my-star::after{
+    border-color: var(--white-color);
+}
+#about .my-star::before{
+    border-color: var(--white-color);
+}
+
+#contact-me .my-star i{
+    color: var(--primary-color);
+}
+#contact-me .my-star::after{
+    border-color: var(--primary-color);
+}
+#contact-me .my-star::before{
+    border-color: var(--primary-color);
+}

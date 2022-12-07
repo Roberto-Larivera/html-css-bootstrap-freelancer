@@ -11,3 +11,27 @@
     --secondary-color:#1ABC9B;
     --white-color: white;
 }
+
+
+.my-star i{
+    font-size: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+    color: transparent;
+}
+.my-star::after{
+    content: '';
+    display: inline-block;
+    width: 100px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+.my-star::before{
+    content: '';
+    display: inline-block;
+    width: 100px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+
+}
