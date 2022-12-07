@@ -23,7 +23,11 @@ header{
 
 }
 
-
+header div:first-child a{
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: bold;
+}
 
 
 #jumbotron img{
@@ -40,6 +44,39 @@ header{
     border-radius: 10px;
 }
 
+
+
+#contact-me form div input{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 10px;
+    line-height: 3;
+    border-bottom: 1px solid lightgray;
+}
+#contact-me form div textarea{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 10px;
+    line-height: 3;
+    border-bottom: 1px solid lightgray;
+}
+
+#contact-me .my-btn{
+    background-color: var(--secondary-color);
+}
+
+
+
+#about .my-btn:hover{
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    background-color: var(--white-color);
+}
+
 .my-btn{
     text-decoration: none;
     color: var(--white-color);
@@ -47,11 +84,11 @@ header{
     padding: 10px;
     border-radius: 10px;
 }
-.my-btn:hover{
+/* .my-btn:hover{
     color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
     background-color: var(--white-color);
-}
+} */
 .my-icon{
     border: 1px solid var(--white-color);
     border-radius: 50%;
@@ -66,3 +103,5 @@ header{
     text-decoration: none;
     color: var(--secondary-color);
 }
+
+
