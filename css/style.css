@@ -15,3 +15,15 @@ header{
 #footer-end{
     background-color: var(--primary-color);
 }
+
+
+
+
+#jumbotron img{
+    width: 300px;
+}
+#jumbotron .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
