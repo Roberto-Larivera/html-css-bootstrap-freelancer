@@ -1,9 +1,12 @@
 header{
     background-color: var(--primary-color);
+    /* background-color: rgba(128, 128, 128, 0.315); */
+    
     color: var(--white-color);
     position: sticky;
     top: 0;
     z-index: 20;
+    scroll-padding-top: 200px;
 
 }
 #jumbotron{
@@ -28,12 +31,17 @@ header{
 }
 
 
-#portfolio{
-    scroll-padding-top: 200em;
+#portfolio,
+#about,
+#contact-me{
+    scroll-margin-top: 100px !important;
 }
 
+.my-pad{
+   padding: 150px 0 ;
+}
 
-
+/* py-5 */
 
 /* NAVBAR  */
 header div:first-child a{
