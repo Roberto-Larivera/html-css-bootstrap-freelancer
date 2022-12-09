@@ -8,6 +8,8 @@
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+        <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" href="css/debug.css">
         <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/style.css">
@@ -19,211 +21,235 @@
 
     </head>
     <body class="debug">
-        <header class="py-4">
-            <div class="container">
+        <div data-bs-spy="scroll" data-bs-target="#navId" tabindex="0">
+
+            <header class="py-4">
+                <nav id="navId" class="navbar navbar-expand-md">
+                    <div class="container">
+                        <div class="row">
+                            
+                            <div class="col-12">
+                                <div class="d-flex align-items-center">
+                                    <a class="navbar-brand" href="#">STARTBOOTSTRAP</a>
+                                    
+                                </div>
+                                <div class="d-flex align-items-center flex-wrap">
+                                    <button id="navbar_my" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span id="navbar_my2" class="navbar-toggler-icon"></span>
+                                    </button>
+                                </div>
+                                
+                                <div class="collapse navbar-collapse my_collapse" id="navbarSupportedContent2">
+                                    <ul class="navbar-nav me-auto mb-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#about">ABOUT</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#contact-me">CONTACT</a>
+                                        </li>
+                                    </ul>   
+                                </div>
+                            </div>
                         
-                <div class="row">
-                    <div class="col">
-                        <a href="#">
-                            START BOOTSTRAP
-                        </a>
-                    </div>
-                    <div class="col text-end">
-                        MENU
-                    </div>
-                </div>
-                    
-            </div>
-        </header>
-        <main>
-            <section id="jumbotron" class="py-4">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <img class="mb-4" src="img/avatar.svg" alt="avatar">
-                            <h1 class="mb-4">
-                                START BOOTSTRAP
-                            </h1>
                             
-                            <div class="my-star ">
-                                
-                                <i class="bi bi-star-fill"></i>
-
-                            </div>
-                            
-                            <p>
-                                GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
-                            </p>
                         </div>
+                        
                     </div>
-                </div>
-            </section>
-            <section id="portfolio" class="py-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <h2>
-                                PORTFOLIO
-                            </h2>
-                        </div>
-                        <div class="col-12 text-center">
-                            <div class="my-star ">
+                </nav>
+            </header>
+            <main >
+                <section id="jumbotron" class="py-4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <img class="mb-4" src="img/avatar.svg" alt="avatar">
+                                <h1 class="mb-4">
+                                    START BOOTSTRAP
+                                </h1>
                                 
-                                <i class="bi bi-star-fill"></i>
-
+                                <div class="my-star ">
+                                    
+                                    <i class="bi bi-star-fill"></i>
+    
+                                </div>
+                                
+                                <p>
+                                    GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4 mt-1">
-                        <div class="col">
-                            <img src="img/cabin.png" alt="cabin">
-                        </div>
-                        <div class="col">
-                            <img src="img/cake.png" alt="cake">
-                        </div>
-                        <div class="col">
-                            <img src="img/circus.png" alt="circus">
-                        </div>
-                        <div class="col">
-                            <img src="img/game.png" alt="game">
-                        </div>
-                        <div class="col">
-                            <img src="img/safe.png" alt="safe">
-                        </div>
-                        <div class="col">
-                            <img src="img/submarine.png" alt="submarine">
-                        </div>
-                    </div>
-                </div>
-            </section> <!--fine portfolio-->
-            <section id="about" class="py-5">
+                </section>
+                <section id="portfolio" class="py-5">
                     <div class="container">
                         <div class="row">
                             <div class="col-12 text-center">
                                 <h2>
-                                    ABOUT
+                                    PORTFOLIO
                                 </h2>
                             </div>
-                            <div class="col-12 text-center mb-3">
+                            <div class="col-12 text-center">
                                 <div class="my-star ">
-                                
+                                    
                                     <i class="bi bi-star-fill"></i>
     
                                 </div>
                             </div>
                         </div>
-                        <div class="row row-cols-1 row-cols-md-2 px-5 mx-5 mb-5">
+                        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4 mt-1">
                             <div class="col">
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores alias nobis sequi culpa mollitia odit, obcaecati quas atque aut quae in possimus incidunt eos enim autem sit magnam dignissimos expedita.
-                                </p>
+                                <img src="img/cabin.png" alt="cabin">
                             </div>
                             <div class="col">
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolorum, doloribus sequi quia laboriosam velit veniam harum! Dolore animi delectus dolor, labore, culpa, ipsum deleniti corporis possimus explicabo error itaque?
-                                </p>
+                                <img src="img/cake.png" alt="cake">
+                            </div>
+                            <div class="col">
+                                <img src="img/circus.png" alt="circus">
+                            </div>
+                            <div class="col">
+                                <img src="img/game.png" alt="game">
+                            </div>
+                            <div class="col">
+                                <img src="img/safe.png" alt="safe">
+                            </div>
+                            <div class="col">
+                                <img src="img/submarine.png" alt="submarine">
                             </div>
                         </div>
+                    </div>
+                </section> <!--fine portfolio-->
+                <section id="about" class="py-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 text-center">
+                                    <h2>
+                                        ABOUT
+                                    </h2>
+                                </div>
+                                <div class="col-12 text-center mb-3">
+                                    <div class="my-star ">
+                                    
+                                        <i class="bi bi-star-fill"></i>
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-cols-1 row-cols-md-2 px-5 mx-5 mb-5">
+                                <div class="col">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores alias nobis sequi culpa mollitia odit, obcaecati quas atque aut quae in possimus incidunt eos enim autem sit magnam dignissimos expedita.
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dolorum, doloribus sequi quia laboriosam velit veniam harum! Dolore animi delectus dolor, labore, culpa, ipsum deleniti corporis possimus explicabo error itaque?
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row text-center px-5 mx-5">
+                                <div class="col-12">
+                                    <a class="my-btn" href="#">
+                                        Download
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+                <section id="contact-me" class="py-5">
+                    <div class="container">
                         <div class="row text-center px-5 mx-5">
-                            <div class="col-12">
-                                <a class="my-btn" href="#">
-                                    Download
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-            </section>
-            <section id="contact-me" class="py-5">
-                <div class="container">
-                    <div class="row text-center px-5 mx-5">
-                        <div class="col">
-                            <h2>
-                                CONTACT ME
-                            </h2>
-                            <div class="my-star ">
-                                
-                                <i class="bi bi-star-fill"></i>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row px-5 mx-5">
-                        <div class="col">
-                            <form action="#" method="get">
-                                <div>
-                                    <input type="text" name="" id="" placeholder="Name">
-                                </div>
-                                <div>
-                                    <input type="email" name="" id="" placeholder="Email Andress">
-                                </div>
-                                <div>
-                                    <input type="text" name="" id="" placeholder="Phone Number">
-                                </div>
-                                <div>
-                                    <textarea name="" id="" cols="30" rows="3" placeholder="Message"></textarea>
-                                </div>
-                                <input class="my-btn" type="submit" value="Send">
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <section id="footer-start" class="py-5">
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-md-3 text-center ">
-                        <div class="col mb-5">
-                            <h5>
-                                LOCATION
-                            </h5>
-                            <span>2215 John Daniel Drive Clark , MO 54243</span> 
-                        </div>
-
-
-                        <div class="col mb-5">
-                            <h5>
-                                AROUND THE WEB
-                            </h5>
-                            <div class="d-flex justify-content-center">
-                                <div class=" my-icon mx-1">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </div>
-                                <div class=" my-icon mx-1">
-                                    <i class="fa-brands fa-google-plus-g"></i>
-                                </div>
-                                <div class=" my-icon mx-1">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </div>
-                                <div class=" my-icon mx-1">
-                                    <i class="fa-brands fa-linkedin-in"></i>
+                            <div class="col">
+                                <h2>
+                                    CONTACT ME
+                                </h2>
+                                <div class="my-star ">
+                                    
+                                    <i class="bi bi-star-fill"></i>
+    
                                 </div>
                             </div>
                         </div>
-
-                    
-                        <div class="col">
-                            <h5>
-                                ABOUT FREELANCER
-                            </h5>
-                            <p>
-                                Freelence is a free to use, open source Bootstrap theme created by <a target="_blank" href="https://getbootstrap.com/docs/5.2/getting-started/introduction/">Start Bootstrap</a>.
-                            </p>
+                        <div class="row px-5 mx-5">
+                            <div class="col">
+                                <form action="#" method="get">
+                                    <div>
+                                        <input type="text" name="" id="" placeholder="Name">
+                                    </div>
+                                    <div>
+                                        <input type="email" name="" id="" placeholder="Email Andress">
+                                    </div>
+                                    <div>
+                                        <input type="text" name="" id="" placeholder="Phone Number">
+                                    </div>
+                                    <div>
+                                        <textarea name="" id="" cols="30" rows="3" placeholder="Message"></textarea>
+                                    </div>
+                                    <input class="my-btn" type="submit" value="Send">
+                                </form>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section id="footer-end" class="py-5">
-                <div class="container">
-                    <div class="row text-center">
-                        <div class="col">
-                            <p>
-                                Copyright &#169; Your Website 2022
-                            </p>
+                </section>
+            </main>
+            <footer>
+                <section id="footer-start" class="py-5">
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-md-3 text-center ">
+                            <div class="col mb-5">
+                                <h5>
+                                    LOCATION
+                                </h5>
+                                <span>2215 John Daniel Drive Clark , MO 54243</span> 
+                            </div>
+    
+    
+                            <div class="col mb-5">
+                                <h5>
+                                    AROUND THE WEB
+                                </h5>
+                                <div class="d-flex justify-content-center">
+                                    <div class=" my-icon mx-1">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </div>
+                                    <div class=" my-icon mx-1">
+                                        <i class="fa-brands fa-google-plus-g"></i>
+                                    </div>
+                                    <div class=" my-icon mx-1">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </div>
+                                    <div class=" my-icon mx-1">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        
+                            <div class="col">
+                                <h5>
+                                    ABOUT FREELANCER
+                                </h5>
+                                <p>
+                                    Freelence is a free to use, open source Bootstrap theme created by <a target="_blank" href="https://getbootstrap.com/docs/5.2/getting-started/introduction/">Start Bootstrap</a>.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
-        </footer>
+                </section>
+                <section id="footer-end" class="py-5">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col">
+                                <p>
+                                    Copyright &#169; Your Website 2022
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </footer>
+        </div>
     </body>
 </html>

@@ -15,7 +15,7 @@
 
 .my-star i{
     font-size: 2rem;
-    display: inline-block;
+    /* display: inline-block; */
     vertical-align: middle;
     padding: 20px;
     color: transparent;

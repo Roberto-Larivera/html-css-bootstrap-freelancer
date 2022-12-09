@@ -1,6 +1,9 @@
 header{
     background-color: var(--primary-color);
     color: var(--white-color);
+    position: sticky;
+    top: 0;
+    z-index: 20;
 }
 #jumbotron{
     background-color: var(--secondary-color);
@@ -23,11 +26,50 @@ header{
 
 }
 
+
+
+
+
+/* NAVBAR  */
 header div:first-child a{
     text-decoration: none;
     color: var(--white-color);
     font-weight: bold;
 }
+#navbar_my2{
+    filter:invert(1);
+}
+#navbar_my{
+    border-color: white;
+}
+#navbar_my:focus{
+    box-shadow: none;
+}
+header .my_collapse ul{
+    justify-content: flex-end;
+    width: 100%;
+}
+header .row{
+    width: 100%;
+}
+header .col-12{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: inherit;
+}
+header .navbar-nav .nav-link.active{
+    color: var(--secondary-color) ;
+    /* border: 1px solid var(--secondary-color); */
+}
+
+
+
+
+
+
+
+
+
 
 
 #jumbotron img{
